@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="app.css">
+    <style>
+        body{background-image: url('https://cdn.pixabay.com/photo/2015/09/10/14/14/scratched-934483_960_720.jpg');
+            background-size: cover;} 
+        th, td {padding: 7px;}
+        *{color: rgb(174, 196, 204)}
+        :placeholder-shown{color: black}
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle collapsed"                          
+              data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1"
+              aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+        <a href="Home1.html" class="navbar-brand">Minseong</a>
+        </div>
+            
+        <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
+        <ul class="nav navbar-nav">
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="Sign Up(table).html">Sign Up</a></li>
+            <li><a href="Sign in.html">Sign In</a></li>
+        </ul></div><!--JS for Hamburger-->
+        <script src="code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </nav>
+
+
+    <form class='container'>
+    <h1>Sign Up</h1>
+
+<table>
+    <tr><td>
+    <div>
+        <label for="ID"> ID </label></td>
+        <td><input id="ID" type = 'text'></td>
+    </div></tr>
+
+    <tr><td>
+    <div>
+        <label for='password'> password </label></td>
+        <td><input id='password' type='password'></td>
+    </div></tr>
+    
+    <tr><td> </td></tr><tr><td> </td></tr>
+
+    <tr><td>
+    <div>
+        <label for="username"> Name </label></td>
+        <td><input id="username" type = 'text' placeholder='First Name'></td>
+        <td><input id="username" type = 'text' placeholder='Last Name'></td>
+    </div></tr>
+    
+    
+    <tr><td>
+    <div>
+        <label for='email'> E-mail </label></td>
+        <td><input id='email' type = 'email' placeholder='ex: myname@example.com'></td>
+    </div></tr>
+
+    <tr><td>
+    <div>
+        <label for='phonenumber'> Phone Number: </label></td>
+        <td><input id='phonenumber' type = 'text' placeholder='Area Code'> </td> 
+        <td><input id='phoIn
+nenumber' type = 'text' placeholder='Phone Number'></td>
+    </div></tr>
+
+    <tr><td>
+
+    <div>
+        <label for='address'> Address: </label></td>
+        <td><input id='address' type = 'text' placeholder='Street Address'></td></tr>
+        
+        <tr><td></td><td><input id='address' type = 'text' placeholder='Street Address Line 2'></td></tr>
+        
+        <tr><td></td><td><input type = 'text' placeholder='City'></td>
+        <td><input type = 'text' placeholder='State/Province'></td></tr>
+        
+        <tr><td></td><td><input type = 'text' placeholder='Postal/Zip Code'></td>
+        <td><label for='Country'> Country </label>
+        <select>
+            <option>Please Select</option>
+        </select></td></tr>
+    </div>
+
+    <tr><td>
+    <div>
+        <label> Birth Date: </label></td>
+        <td><input type = 'date'></td>
+    </div></tr>
+</table>
+    <br>
+    <div>
+        <fieldset>
+            <legend> <p>Where did you hear about us?</p> </legend>
+            <input type = 'checkbox'> A Friend of colleauge <br>
+            <input type = 'checkbox'> Google <br>
+            <input type = 'checkbox'> Blog Post <br>
+            <input type = 'checkbox'> News Article <br>
+        </fieldset>
+    </div> 
+    <br><br>
+
+    <a class="btn btn-default btn-lg" href="thank.html" role="button">Submit</a><br><br>
+    
+</form>
+</body>
+</html>
